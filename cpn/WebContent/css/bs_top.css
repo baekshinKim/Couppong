@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+.container{
+	margin: 0px auto
+}
+
+.kksearch {
+   width: 100%;
+   position: relative;
+   margin: 0 auto;
+}
+
+.home-banner {
+   padding: 130px 0;
+   background-position: 50%;
+   background-size: cover;
+   color: #fff;
+   position: relative;
+}
+
+.theme-section {
+   width: 100%;
+   margin: 50px auto
+}
+
+.theme-section .theme-lists {
+   width: 80%;
+   margin: 0 auto;
+   text-align: center
+}
+
+.theme-section .theme-lists .theme-block {
+   display: inline-block;
+   z-index: 1;
+   text-align: center;
+   width: 16%;
+   vertical-align: top
+}
+
+.theme-section .theme-lists .theme-block .theme-type {
+   position: relative;
+   display: inline-block;
+   text-align: center;
+   width: 60px
+}
+
+.theme-section .theme-lists .theme-block .theme-type.new-tag:before {
+   content: "NEW";
+   background-color: #ef7a70;
+   display: inline-block;
+   width: 43px;
+   height: 20px;
+   position: absolute;
+   top: -10px;
+   right: -12px;
+   border-radius: 100px;
+   color: #fff;
+   font-size: 1.2rem;
+   z-index: 9
+}
+
+.theme-section .theme-lists .theme-block .theme-type.hot-tag:before {
+   content: "HOT";
+   background-color: #ffb400;
+   display: inline-block;
+   width: 43px;
+   height: 20px;
+   position: absolute;
+   top: -10px;
+   right: -12px;
+   border-radius: 100px;
+   color: #fff;
+   font-size: 1.2rem;
+   z-index: 9
+}
+
+.theme-section .theme-lists .theme-block:hover .theme-icon {
+   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, .2))
+}
+
+.theme-section .theme-lists .theme-block:hover .theme-p {
+   color: #26bec9
+}
+
+.theme-section .theme-lists .theme-block .theme-icon {
+   width: 60px;
+   height: 60px;
+   margin: 0
+}
+
+.theme-section .theme-lists .theme-block .theme-p {
+   margin: 10px 0;
+   font-size: 1.6rem;
+   line-height: 1.33;
+   letter-spacing: .64px;
+   color: #666;
+   font-weight: 500;
+   word-break: break-word
+}
+
+@media ( max-width : 991px) {
+   .theme-section {
+      margin: 50px auto 35px
+   }
+   .theme-section .theme-lists {
+      width: 100%
+   }
+   .theme-section .theme-lists .theme-block {
+      margin: 15px 0
+   }
+}
+
+@media ( max-width : 767px) {
+   .theme-section .theme-lists {
+      width: 100%
+   }
+   .theme-section .theme-lists .theme-block {
+      width: 33%
+   }
+}
+
+.theme-section .theme-lists .theme-block .theme-icon {
+   width: 60px;
+   height: 60px;
+   margin: 0;
+}
+
+.theme-icon-covid19 {
+    background-image: url(https://cdn.kkday.com/pc-web/assets/img/theme_icon/ic_theme_covid19.svg)
+}
+
+.theme-icon-outdoor2 {
+   background-image:
+      url(https://cdn.kkday.com/pc-web/assets/img/theme_icon/ic_theme_outdoor2.svg);
+}
+
+.theme-icon-park {
+   background-image:
+      url(https://cdn.kkday.com/pc-web/assets/img/theme_icon/ic_theme_park.svg);
+}
+
+.theme-icon-attraction {
+   background-image:
+      url(https://cdn.kkday.com/pc-web/assets/img/theme_icon/ic_theme_attraction.svg);
+}
+
+.theme-icon-family {
+   background-image:
+      url(https://cdn.kkday.com/pc-web/assets/img/theme_icon/ic_theme_family.svg);
+}
+
+.theme-icon-rent {
+   background-image:
+      url(https://cdn.kkday.com/pc-web/assets/img/theme_icon/ic_theme_rent.svg);
+}
+
+.theme-section .theme-lists .theme-block .theme-icon {
+   width: 60px;
+   height: 60px;
+   margin: 0;
+   display: block;
+}
+
+	

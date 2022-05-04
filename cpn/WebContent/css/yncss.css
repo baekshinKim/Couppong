@@ -1,0 +1,186 @@
+    .YNside-bar ul{
+      list-style-type: none;
+      background-color: #ffffff !important;
+      width: 200px;
+      padding: 0;
+      margin:  0;
+   }
+
+   .YNside-bar ul li a {
+      text-decoration: none;
+      display: block;
+      color: #000;
+      padding: 10px 15px 10px 8px;
+      font-weight: bold;
+   }
+   
+
+/*     #YNside-bar ul.list-group YNside-li:hover{
+      background-color: #F9C8C8;
+      color: #fff;
+   }
+  */
+ #YNlist-group li:hover{
+   background-color:#f5c8c8;
+}
+ 
+.YNlist-group-item{
+   border-bottom:1px solid #999;
+   height: 50px;
+}
+
+
+/* yncss 적용  */
+
+.YNalign-center{
+    text-align: center;    
+}
+
+
+.YNalign-right{
+      text-align: right;    
+}
+
+.YNborder-right{
+    border-right:10px solid #efefef;
+    padding-right: 5px;
+
+}
+
+
+.YNborder-left{
+    
+    padding-left: 5px;
+
+    text-align: left
+}
+
+.YNborder-bottom{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+
+
+.YNinput-none{
+background-color:#fff;
+    border: none;
+}
+
+
+
+.YNmargin-top{
+    margin-top:30px;
+}
+
+.YNlogin-chk{
+    align-content: center
+}
+
+.YNh3{
+    font-size:2em;
+    font-family: 'Montserrat', sans-serif;
+   margin:10px;
+    font-weight:600;
+}
+
+.YNh4{
+    font-size:1.7em;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px;
+    font-weight:600;
+    letter-spacing: -1;
+}
+
+.YNsmall-info{
+    color: cornflowerblue !important;
+    font-size: 0.8em;
+}
+
+.YNfull-btn{
+    width: 100% ; line-height: 3; margin-top:  50px;
+}
+
+.YNbtn{
+    width: 83% ;line-height: 3; margin-top:  50px;
+   
+}
+
+.YNcontent-head{
+    color: #777;
+    line-height:1.5;
+
+    margin-bottom:5px; 
+}
+
+
+#YNcenter-box{
+    width:700px;
+    /*background-color:rgba(255,255,255,0.5); */
+    padding: 50px;
+    margin:0 auto ; 
+    border: 1px solid #fff;
+}
+
+.YNtable{
+    margin:0; padding: 0;
+    width : 500px;
+}
+
+.YNtable2{
+    margin:0; padding: 0;padding-top:20px;margin-bottom:20px;
+    width :700px;
+}
+
+.YNtext-label{
+    width:120px;
+    
+}
+
+.YNinput-text{
+    width: 90px; line-height: 3;
+background-color:#fff;
+ 
+padding-top:10px;
+padding-right:0;
+    align-content: stretch;
+ 
+}
+
+.YNinput-text .YNinput-btn{
+    width: 160px; height: 40px; vertical-align: inherit; line-height: 1.5;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+ 
+}
+
+.YNinput-tel{
+    width: 100px; 
+    height: 40px; vertical-align: inherit; line-height: 1.5;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*  */
+
+#YNwrap{
+   width:1320px;
+   margin:0 auto;
+   
+}
+
+#YNcontainer{
+   width:1120px;
+}
+
+.YNbtn-mini{
+   width: 50px; line-height:1.5;
+   background-color: yellow;
+}
+
+#YNsearch_field{
+   width: 100%;
+}
